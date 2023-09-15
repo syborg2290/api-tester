@@ -1,0 +1,3 @@
+# Get all missing packages
+- go list -e -compiled=false -test=false ./...
+ 
